@@ -10,7 +10,7 @@ The Student Voter System is a backend system built with Django and Django Rest F
 
 **Steps:**
 - Clone the repository:
-```json
+```
 git clone https://github.com/your-username/student-voter-system.git
 ```
 ```
@@ -48,7 +48,7 @@ python manage.py createsuperuser
 ```
 ### Environment Variables
 Create a .env file in the root directory to configure the environment variables:
-```json
+```
 # Django settings
 SECRET_KEY="your-secret-key"
 DEBUG=True  # Change to False in production
@@ -128,7 +128,7 @@ The file processing is handled asynchronously using Celery and RabbitMQ. The sys
 ### Database Design
 
 The StudentVoter model represents the structure for student voter information. The model contains the following fields:
-```json
+```
 student_id: Unique ID for each student.
 first_name: Student's first name.
 last_name: Student's last name.
